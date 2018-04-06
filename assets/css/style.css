@@ -1,0 +1,36 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(0, 152, 163);
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-text {
+   font-size: 5rem;
+   font-weight: bolder;
+   margin-top: -3rem;
+}
+
+#start-button {
+    margin-top: 3rem;
+}
+
+#cromulon-image > img {
+    margin-right: 3rem;
+}
