@@ -16,7 +16,7 @@ $(document).ready(function () {
             question: "Who are Rick's two best friends?",
             options: ['Birdperson and Squanchy', 'Eagleperson and Scrunchy', 'Beakperson and Squinchy', 'Hawkperson and Sqelchy'],
             correctAnswer: 'Birdperson and Squanchy',
-            image: './assets/images/birdpersonandsquanchy.webp'
+            image: './assets/images/birdpersonandsquanchy.jpg'
         },
         {
             question: "What non-human species makes up half of Morty's son?",
