@@ -17,7 +17,7 @@ body {
 }
 
 .multiple-choice {
-    
+    cursor: pointer;
     padding: 10px;
 }
 
