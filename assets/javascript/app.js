@@ -16,7 +16,7 @@ $(document).ready(function () {
             question: "Who are Rick's two best friends?",
             options: ['Birdperson and Squanchy', 'Eagleperson and Scrunchy', 'Beakperson and Squinchy', 'Hawkperson and Sqelchy'],
             correctAnswer: 'Birdperson and Squanchy',
-            image: './assets/images/birdpersonandsquanchy.webp'
+            image: './assets/images/birdpersonandsquanchy.jpg'
         },
         {
             question: "What non-human species makes up half of Morty's son?",
@@ -160,7 +160,7 @@ $(document).ready(function () {
         $('#question').empty();
         $('#answers').empty();
         $('#timer').empty();
-        $('#cromulon-image').html('<img src="./assets/images/cromulon.png" class="img-fluid" alt="Cromulon">');
+        $('#cromulon-image').html('<img id="cromulon-splash" src="./assets/images/cromulon.png" class="img-fluid" alt="Cromulon">');
         $('#cromulon-text').html('<p>"DISQUALIFIED!"</p>');
         // $('#result').text('Nope!');
         $('#correct-answer').text(`Corret Answer: ${currentQuestion.correctAnswer}`);
@@ -172,7 +172,7 @@ $(document).ready(function () {
     function renderCorrectAnswerPage() {
         $('#question').empty();
         $('#answers').empty();
-        $('#cromulon-image').html('<img src="./assets/images/cromulon.png" class="img-fluid" alt="Cromulon">');
+        $('#cromulon-image').html('<img id="cromulon-splash" src="./assets/images/cromulon.png" class="img-fluid" alt="Cromulon">');
         $('#cromulon-text').html('<p>"WINNER!"</p>');
         // $('#result').text('Correct!');
         $('#answer-image').html(`<img id="answer-gif" src=${currentQuestion.image} class="img-fluid" alt=${currentQuestion.correctAnswer}>`);

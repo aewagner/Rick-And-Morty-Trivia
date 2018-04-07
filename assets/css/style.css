@@ -87,13 +87,14 @@ body {
     margin: 3rem;
 }
 
-@media only screen and (max-width: 500px) {
-    #cromulon {
+@media only screen and (max-width: 800px) {
+    #cromulon, #cromulon-splash {
         max-width: 50%;
     }
 
     #cromulon-image {
         margin-top: 0rem;
+        /* max-width: 50%; */
     }
 
     #cromulon-text {
