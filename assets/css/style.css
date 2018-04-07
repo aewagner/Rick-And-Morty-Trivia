@@ -97,11 +97,11 @@ body {
     }
 
     #cromulon-text {
-        background-color: none;
+        background-color: transparent;
     }
 
     #answers {
-        background-color: rgba(245, 245, 245, 0.445);
+        background-color: rgba(245, 245, 245, 0.781);
         border-radius: 10px;
     }
 }
