@@ -61,7 +61,7 @@ $(document).ready(function () {
         },
         {
             question: `What's Rick's catchphrapse?`,
-            options: ['Hold on to your butts', 'Mathmatical!', 'Wubba lubba dub dub!', 'Jerry is the best'],
+            options: ['Hold on to your butts', 'Mathematical!', 'Wubba lubba dub dub!', 'Jerry is the best'],
             correctAnswer: 'Wubba lubba dub dub!',
             image: './assets/images/wubbalubbadubdub.gif'
         }
