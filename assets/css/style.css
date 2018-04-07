@@ -95,4 +95,13 @@ body {
     #cromulon-image {
         margin-top: 0rem;
     }
+
+    #cromulon-text {
+        background-color: none;
+    }
+
+    #answers {
+        background-color: rgba(245, 245, 245, 0.445);
+        border-radius: 10px;
+    }
 }
